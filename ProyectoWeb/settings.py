@@ -69,13 +69,13 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'AppCarro.context_processor.importe_total_carro'
+                #'AppCarro.context_processor.importe_total_carro'
             ],
         },
     },
 ]
 
-#TEMPLATES[0]['OPTIONS']['context_processors'].append('AppCarro.context_processors.importe_total_carro')
+#TEMPLATES[0]['OPTIONS']['context_processor'].append('AppCarro.context_processor.importe_total_carro')
 
 WSGI_APPLICATION = 'ProyectoWeb.wsgi.application'
 
